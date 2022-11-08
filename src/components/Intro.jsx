@@ -14,6 +14,8 @@ function IntroSection() {
           sm={{ order: "1" }}
           md={{ order: "1" }}
           lg={{ order: "0" }}
+
+          className="intro-text"
         >
           <div >
             <h1 className="intro-title">Hi there, I'm Advait Tumbre 👋</h1>
@@ -36,6 +38,7 @@ function IntroSection() {
             roundedCircle
             className="profile-image"
             alt="Profile Picture"
+            
           ></Image>
         </Col>
       </Row>

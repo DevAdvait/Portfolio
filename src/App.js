@@ -78,8 +78,8 @@ function App() {
         </Row>
 
         <Row className="contact-section">
-          <LeftSection/>
-          <RightSection/>
+          <LeftSection className="left-section"/>
+          <RightSection className="right-section"/>
         </Row>
       </Container>
     </div>

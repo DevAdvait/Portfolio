@@ -75,7 +75,7 @@ export function LeftSection() {
 export function RightSection() {
   return (
     <Col xs={12} md={12} lg={6}>
-      <div style={{ textAlign: "right" }}>
+      <div style={{ textAlign: "right" }} className="right-section-div">
         <h2
           style={{
             textDecoration: "none",
