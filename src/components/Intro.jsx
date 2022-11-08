@@ -35,6 +35,7 @@ function IntroSection() {
             src="https://sohohindi.in/wp-content/uploads/2021/03/HelloIMG1641289291441.jpeg"
             roundedCircle
             className="profile-image"
+            alt="Profile Picture"
           ></Image>
         </Col>
       </Row>

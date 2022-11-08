@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 function SkillSection({skillName, imgSrc}) {
   return (
     <Col className="skillBox col-lg-4 col-sm-6">
-      <Image src={imgSrc} fluid className="skillImage"></Image>
+      <Image src={imgSrc} fluid className="skillImage" alt="Skills"></Image>
       <p>{skillName}</p>
     </Col>
   );

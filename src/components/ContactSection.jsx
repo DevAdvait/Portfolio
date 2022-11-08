@@ -1,6 +1,4 @@
-import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
@@ -89,7 +87,7 @@ export function RightSection() {
           Email
         </h2>
         <a
-          href="#"
+          href="gmail.com"
           style={{
             textDecoration: "none",
             fontSize: "1.2rem",
@@ -110,8 +108,8 @@ export function RightSection() {
         >
           Address
         </h2>
-        <a
-          href="#"
+        <p
+          
           style={{
             textDecoration: "none",
             fontSize: "1.2rem",
@@ -120,7 +118,7 @@ export function RightSection() {
           }}
         >
           Rambaug-4, Kalyan West, Maharashtra.
-        </a>
+        </p>
 
         <h2
           style={{
@@ -134,17 +132,17 @@ export function RightSection() {
         </h2>
         <div> 
           
-          <a href="#" style={{ scale: "2" }}>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"  style = {{height:"4rem",margin:"2% 2.5%"}}/>
+          <a href="github.com" style={{ scale: "2" }}>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="GitHub" style = {{height:"4rem",margin:"2% 2.5%"}}/>
           </a>
-          <a href="#">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" style = {{height:"4rem",margin:"2% 2.5%"}}/>
+          <a href="facebook.com">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook" style = {{height:"4rem",margin:"2% 2.5%"}}/>
           </a>
-          <a href="#">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style = {{height:"4rem",margin:"2% 2.5%"}}/>
+          <a href="linkedin.com">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Linkedin" style = {{height:"4rem",margin:"2% 2.5%"}}/>
           </a>
-          <a href="#">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" style = {{height:"4rem",margin:"2% 0 2% 0%"}}/>
+          <a href="apple.com">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="Apple" style = {{height:"4rem",margin:"2% 0 2% 0%"}}/>
           </a>
         </div>
       </div>
