@@ -27,11 +27,11 @@ mongoose
 app.post(
   "/submitContactForm",
   [
-    body("name").isString().withMessage("Name must be a string"),
-    body("email").isEmail().withMessage("Invalid email format"),
+    body("name").isString().withMessage({message:"Name must be a string"}),
+    body("email").isEmail().withMessage({message:"Invalid email format"}),
     body("message")
       .isLength({ min: 5 })
-      .withMessage("Message must be at least 5 characters long"),
+      .withMessage({message:"Message must be at least 5 characters long"}),
   ],
   async (req, res) => {
     const { name, email, message } = req.body;
