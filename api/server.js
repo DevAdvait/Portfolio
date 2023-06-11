@@ -13,12 +13,8 @@ const port = process.env.PORT || 4000;
 
 const app = express();
 
-app.use(
-  cors({
-    origin: "https://legendary-raindrop-fd970c.netlify.app/",
-  })
-);
 app.use(express.json());
+app.use(cors());
 
 mongoose
   .connect(process.env.MONGODB_URI, {
