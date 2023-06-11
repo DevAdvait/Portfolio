@@ -1,0 +1,89 @@
+:root {
+  --primary: #001011;
+  --secondary: #40798c;
+  --tertiary: #fffded;
+}
+.contact-container {
+  color: var(--tertiary);
+}
+.row-section {
+  width: 100%;
+}
+.contact-form {
+  text-align: start;
+  font-family: "Lora",serif;
+}
+.form-group {
+  margin-top: 1rem;
+}
+.contact-form button {
+  background-color: var(--secondary);
+}
+.contact-form button:hover {
+  color: var(--primary);
+  background-color: var(--tertiary);
+}
+.contact-form label {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  font-family: "Playfair Display", serif;
+}
+.contact-form .submit {
+  display: flex;
+  justify-content: center;
+
+}
+.contact-form .btn {
+  width: 6rem;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 1.5rem;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.social-icon-section {
+
+  column-gap: 1rem;
+}
+.social-icon {
+  font-size: 2.5rem;
+  margin: 5px;
+}
+.right-section {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: auto 0;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+
+}
+
+/* Media queries for smaller devices */
+@media (max-width: 767px) {
+  .contact-container {
+    margin-top: 1rem;
+  }
+  .contact-details {
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.right-section a{
+  text-decoration: none;
+  color: var(--tertiary);
+
+}

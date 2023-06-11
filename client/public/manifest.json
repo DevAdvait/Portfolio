@@ -1,0 +1,20 @@
+{
+  "short_name": "DevAdvait Portfolio",
+  "name": "DevAdvait's Portfolio for FullStack Developer",
+  "icons": [
+    {
+      "src": "devIcon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "mindset.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#40798c",
+  "background_color": "#001011"
+}

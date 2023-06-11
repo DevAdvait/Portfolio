@@ -1,0 +1,32 @@
+@keyframes pop-out-animation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  25% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(2);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.waving-text {
+  display: inline-block;
+}
+
+.wave-letter {
+  display: inline-block;
+  animation: pop-out-animation 0.2s ease-in-out forwards;
+  transform-origin: center;
+  opacity: 0;
+}

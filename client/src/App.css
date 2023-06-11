@@ -1,0 +1,42 @@
+:root {
+  --primary: #001011;
+  --secondary: #40798C;
+  --tertiary: #FFFDED;
+
+}
+*{
+  box-sizing: border-box;
+}
+.App {
+
+    text-align: center;
+  background-color: var(--primary);
+  
+}
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+p{
+  font-family: 'Georgia', serif;
+}
+.section-breakline {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.section-breakline hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 0;
+}
+
+.section-breakline .text-center {
+  text-align: center;
+  color: var(--tertiary);
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+footer{
+  padding-bottom: 2%;
+}

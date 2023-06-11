@@ -1,0 +1,65 @@
+:root {
+  --primary: #001011;
+  --secondary: #40798c;
+  --tertiary: #fffded;
+}
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+@media (max-width: 767px) {
+  .projects-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}
+.project-card {
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+  animation: bounce 0.5s;
+}
+.project-title {
+  color: var(--primary);
+  font-family: "Playfair Display", serif;
+}
+.project-description {
+  color: var(--secondary);
+  font-family: "Lora",serif;
+}
+.read-more {
+  color: var(--primary);
+  font-size: 0.8rem;
+}
+.btn {
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: var(--tertiary);
+  outline: 4px solid var(--primary);
+  border:none;
+  outline-offset: 0.2rem;
+  transition: 0.5s;
+  font-weight: 600;
+  color: var(--secondary);
+}
+.project-card .img-fluid {
+  height: 200px; 
+  object-fit: cover;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
