@@ -6,7 +6,7 @@ import IndexPage from "./pages/IndexPage";
 import axios from "axios";
 
 
-axios.defaults.baseURL = 'http://localhost:5000/';
+axios.defaults.baseURL = 'https://portfolio-backend-l2fe.onrender.com';
 
 
 function App() {

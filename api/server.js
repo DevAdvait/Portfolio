@@ -15,7 +15,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://legendary-raindrop-fd970c.netlify.app/",
   })
 );
 app.use(express.json());
